@@ -40,6 +40,7 @@ struct ListView: View {
                     })
                 }
             }
+            .navigationTitle("to do list")
         }
     }
 }
