@@ -13,7 +13,7 @@ struct ListItemsView: View {
     
     @Environment(\.blackbirdDatabase) var db: Blackbird.Database?
     
-    @BlackbirdLiveModels var todoItems: Blackbird.LiveResults<TodoItem>
+    @BlackbirdLiveModels var todoItems: Blackbird.LiveResults<Todoitem>
     
     //MARK: COMPUTED PROPERTIES
     
@@ -47,7 +47,7 @@ struct ListItemsView: View {
     
     init(filteredOn searchText: String){
         _todoItems = BlackbirdLiveModels({ db in
-            try await TodoItem.read(from: db,
+            try await Todoitem.read(from: db,
                                     sqlWhere: "description LIKE ?", "%\(searchText)%")
         })
         
