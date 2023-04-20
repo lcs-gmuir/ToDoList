@@ -7,7 +7,7 @@
 import Blackbird
 import Foundation
 
-struct TodoItem: BlackbirdModel{
+struct Todoitem: BlackbirdModel{
     
     @BlackbirdColumn var id: Int
     @BlackbirdColumn var description: String

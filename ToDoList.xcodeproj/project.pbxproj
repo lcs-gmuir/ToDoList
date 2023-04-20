@@ -14,8 +14,8 @@
 		98AAC51E29E9AB71009E5054 /* listItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AAC51D29E9AB70009E5054 /* listItemView.swift */; };
 		98C546C429E707EC0051848D /* db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 98C546C329E707EC0051848D /* db.sqlite */; };
 		98C546C729E708830051848D /* Blackbird in Frameworks */ = {isa = PBXBuildFile; productRef = 98C546C629E708830051848D /* Blackbird */; };
-		98C546CA29E82F8B0051848D /* AppDatabase.swift.  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C546C929E82F8B0051848D /* AppDatabase.swift.  .swift */; };
-		98D39A5929DDB01D00B389A3 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D39A5829DDB01D00B389A3 /* TodoItem.swift */; };
+		98C546CA29E82F8B0051848D /* AppDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C546C929E82F8B0051848D /* AppDatabase.swift */; };
+		98D39A5929DDB01D00B389A3 /* Todoitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D39A5829DDB01D00B389A3 /* Todoitem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		9864B8B429DB9882002BEB86 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		98AAC51D29E9AB70009E5054 /* listItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listItemView.swift; sourceTree = "<group>"; };
 		98C546C329E707EC0051848D /* db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = db.sqlite; sourceTree = "<group>"; };
-		98C546C929E82F8B0051848D /* AppDatabase.swift.  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDatabase.swift.  .swift"; sourceTree = "<group>"; };
-		98D39A5829DDB01D00B389A3 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		98C546C929E82F8B0051848D /* AppDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabase.swift; sourceTree = "<group>"; };
+		98D39A5829DDB01D00B389A3 /* Todoitem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todoitem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 		98C546C829E82F730051848D /* helpers  */ = {
 			isa = PBXGroup;
 			children = (
-				98C546C929E82F8B0051848D /* AppDatabase.swift.  .swift */,
+				98C546C929E82F8B0051848D /* AppDatabase.swift */,
 			);
 			path = "helpers ";
 			sourceTree = "<group>";
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				98C546C329E707EC0051848D /* db.sqlite */,
-				98D39A5829DDB01D00B389A3 /* TodoItem.swift */,
+				98D39A5829DDB01D00B389A3 /* Todoitem.swift */,
 				98C546C829E82F730051848D /* helpers  */,
 			);
 			path = "Model ";
@@ -183,9 +183,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				98AAC51E29E9AB71009E5054 /* listItemView.swift in Sources */,
-				98C546CA29E82F8B0051848D /* AppDatabase.swift.  .swift in Sources */,
+				98C546CA29E82F8B0051848D /* AppDatabase.swift in Sources */,
 				9864B8B529DB9882002BEB86 /* ListView.swift in Sources */,
-				98D39A5929DDB01D00B389A3 /* TodoItem.swift in Sources */,
+				98D39A5929DDB01D00B389A3 /* Todoitem.swift in Sources */,
 				9864B8A629DB97CC002BEB86 /* ToDoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
