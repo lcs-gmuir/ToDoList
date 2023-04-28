@@ -1,15 +1,16 @@
 //
-//  File.swift
+//  TodoItem.swift
 //  ToDoList
 //
-//  Created by Samantha Stewart on 2023-04-05.
+//  Created by Justin Zack Wei on 2023-04-14.
 //
-import Blackbird
-import Foundation
 
-struct Todoitem: BlackbirdModel{
-    
+import Foundation
+import Blackbird
+
+struct TodoItem: BlackbirdModel{
     @BlackbirdColumn var id: Int
     @BlackbirdColumn var description: String
     @BlackbirdColumn var completed: Bool
+   
 }

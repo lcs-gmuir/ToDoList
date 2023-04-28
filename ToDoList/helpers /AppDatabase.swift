@@ -1,10 +1,4 @@
 //
-//  AppDatabase.swift.  .swift
-//  ToDoList
-//
-//  Created by Samantha Stewart on 2023-04-13.
-//
-//
 //  AppDatabase.swift
 //  BlackbirdTest
 //

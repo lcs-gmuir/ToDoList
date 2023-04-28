@@ -2,7 +2,7 @@
 //  ListItemsView.swift
 //  ToDoList
 //
-//  Created by griffin muir on 2023-04-13.
+//  Created by Samantha Stewart on 2023-04-14.
 //
 import Blackbird
 import SwiftUI
@@ -13,7 +13,7 @@ struct ListItemsView: View {
     
     @Environment(\.blackbirdDatabase) var db: Blackbird.Database?
     
-    @BlackbirdLiveModels var todoItems: Blackbird.LiveResults<Todoitem>
+    @BlackbirdLiveModels var todoItems: Blackbird.LiveResults<TodoItem>
     
     //MARK: COMPUTED PROPERTIES
     
@@ -47,7 +47,7 @@ struct ListItemsView: View {
     
     init(filteredOn searchText: String){
         _todoItems = BlackbirdLiveModels({ db in
-            try await Todoitem.read(from: db,
+            try await TodoItem.read(from: db,
                                     sqlWhere: "description LIKE ?", "%\(searchText)%")
         })
         
